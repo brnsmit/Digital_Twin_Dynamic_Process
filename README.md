@@ -15,13 +15,22 @@ O banco de dados gerado através da planta de simulação e coletado por meio de
 
 ![image](https://github.com/brnsmit/Digital_Twin_Dynamic_Process/assets/137723215/fbad7413-4469-4d67-a561-2c6397164ba3)
 
-
-
 ![image](https://github.com/brnsmit/Digital_Twin_Dynamic_Process/assets/168189996/320aa0b5-37e4-4b0e-8cfc-1c7782d0f27f)
 
 - Back-End (Modelo em Python)
 
 O modelo desenvolvido para a previsão foi baseado em LSTM e está disponível em [DigitalTwinV8.ipynb](https://github.com/brnsmit/Digital_Twin_Dynamic_Process/blob/main/DigitalTwinV8.ipynb).
+
+As principais funções executadas no modelo são:
+
+- Handshake com Arduino: Reinicializa a conexão, lê e escreve códigos de handshake para sincronização.
+- Parse de Dados do Arduino: Converte bytes recebidos em valores numéricos (tempo, PWM, temperatura ambiente, temperatura MOSFET).
+- Coleta e Processamento de Dados: Envia comando de solicitação de dados e lê a resposta.
+- Armazenamento de Dados em CSV: Salva os dados coletados em um arquivo CSV.
+- Modelos de Previsão: Carrega um modelo pré-treinado (LSTM, etc.) a partir de um arquivo.
+- Previsão com Dados: Usa os dados coletados para fazer previsões utilizando o modelo carregado.
+- Comunicação MQTT: Publica os dados coletados/previsões em um tópico MQTT.
+- Execução do Script: Realiza handshake, coleta dados, salva em CSV, carrega modelo, faz previsões, publica resultados via MQTT.
 
 - Front-End
 
