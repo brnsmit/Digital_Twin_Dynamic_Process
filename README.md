@@ -13,6 +13,9 @@ Foi desenvolvido uma planta de simulação a qual seu funcionamento baseia-se na
 
 O banco de dados gerado através da planta de simulação e coletado por meio de um código em Python, esses mesmos dados são coletados e registrados em intervalos regulares, proporcionando insights valiosos para a criação de um modelo de predição de temperatura da planta.
 
+![image](https://github.com/brnsmit/Digital_Twin_Dynamic_Process/assets/137723215/fbad7413-4469-4d67-a561-2c6397164ba3)
+
+
 
 ![image](https://github.com/brnsmit/Digital_Twin_Dynamic_Process/assets/168189996/320aa0b5-37e4-4b0e-8cfc-1c7782d0f27f)
 
