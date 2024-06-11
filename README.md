@@ -8,4 +8,19 @@ Foi desenvolvido uma planta de simulação a qual seu funcionamento baseia-se na
 
 ![image](https://github.com/brnsmit/Digital_Twin_Dynamic_Process/assets/137723215/e14abf85-2604-40e9-b7b2-dbec5b7d2cb1)
 
+- Banco de Dados
+
+- 
+
+
+![image](https://github.com/brnsmit/Digital_Twin_Dynamic_Process/assets/168189996/320aa0b5-37e4-4b0e-8cfc-1c7782d0f27f)
+
+- Back-End (Modelo em Python)
+
+O modelo desenvolvido para a previsão foi baseado em LSTM e está disponível em DigitalTwinV8.ipynb.
+
+- Front-End
+
+Para visualização do sistema funcionando on-line, acesse:
+
    
