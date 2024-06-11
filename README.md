@@ -1,6 +1,6 @@
-          Desenvolvimento de um Digital Twin para Planta de simulação de um processo de Dinâmico
+# Desenvolvimento de um Digital Twin para Planta de simulação de um processo de Dinâmico
 
-1) Planta de Simulação
+- Planta de Simulação
 
 Foi desenvolvido uma planta de simulação a qual seu funcionamento baseia-se na interação entre Arduino Uno e os sensores de temperatura, com intuito de simular e monitorar um processo dinâmico.
 
