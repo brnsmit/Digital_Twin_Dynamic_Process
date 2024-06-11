@@ -23,14 +23,14 @@ O modelo desenvolvido para a previsão foi baseado em LSTM e está disponível e
 
 As principais funções executadas no modelo são:
 
-- Handshake com Arduino: Reinicializa a conexão, lê e escreve códigos de handshake para sincronização.
-- Parse de Dados do Arduino: Converte bytes recebidos em valores numéricos (tempo, PWM, temperatura ambiente, temperatura MOSFET).
-- Coleta e Processamento de Dados: Envia comando de solicitação de dados e lê a resposta.
-- Armazenamento de Dados em CSV: Salva os dados coletados em um arquivo CSV.
-- Modelos de Previsão: Carrega um modelo pré-treinado (LSTM, etc.) a partir de um arquivo.
-- Previsão com Dados: Usa os dados coletados para fazer previsões utilizando o modelo carregado.
-- Comunicação MQTT: Publica os dados coletados/previsões em um tópico MQTT.
-- Execução do Script: Realiza handshake, coleta dados, salva em CSV, carrega modelo, faz previsões, publica resultados via MQTT.
+1. Handshake com Arduino: Reinicializa a conexão, lê e escreve códigos de handshake para sincronização.
+2. Parse de Dados do Arduino: Converte bytes recebidos em valores numéricos (tempo, PWM, temperatura ambiente, temperatura MOSFET).
+3. Coleta e Processamento de Dados: Envia comando de solicitação de dados e lê a resposta.
+4. Armazenamento de Dados em CSV: Salva os dados coletados em um arquivo CSV.
+5. Modelos de Previsão: Carrega um modelo pré-treinado (LSTM, etc.) a partir de um arquivo.
+6. Previsão com Dados: Usa os dados coletados para fazer previsões utilizando o modelo carregado.
+7. Comunicação MQTT: Publica os dados coletados/previsões em um tópico MQTT.
+8. Execução do Script: Realiza handshake, coleta dados, salva em CSV, carrega modelo, faz previsões, publica resultados via MQTT.
 
 - Front-End
 
