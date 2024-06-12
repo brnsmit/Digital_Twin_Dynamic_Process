@@ -36,7 +36,9 @@ As principais funções executadas no modelo são:
 
 O TagoIO é uma plataforma de Internet das Coisas (IoT) que simplifica a coleta, visualização e análise de dados vindos de dispositivos conectados. Com ferramentas especializadas, auxilia desenvolvedores e empresas na gestão eficiente de seus dados de IoT.
 
+![image](https://github.com/brnsmit/Digital_Twin_Dynamic_Process/assets/137723215/204c99c6-0def-405a-a159-20751a177e39)
+
 
 Para visualização do sistema funcionando on-line, acesse:
 
-   
+https://664fcaa10f613300098d3dea.tago.run/dashboards/info/66560ec70f6133000927f7c4?anonymousToken=00000000-664f-caa1-0f61-3300098d3dea
