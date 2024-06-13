@@ -48,8 +48,3 @@ O TagoIO é uma plataforma de Internet das Coisas (IoT) que simplifica a coleta,
 ## 🔗 Visualização Online
 
 Para visualização do sistema funcionando online, acesse: [Shadow Twin](https://664fcaa10f613300098d3dea.tago.run/dashboards/info/66560ec70f6133000927f7c4?anonymousToken=00000000-664f-caa1-0f61-3300098d3dea).
-
-Feito por [Bruno Smit]((https://github.com/brnsmit))
-Feito por [Bruno Tozato]((https://github.com/Brun0T0zat0))
-Feito por [Wesley Ribeiro]((https://github.com/WCRIBEIRO))
-
